@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nodejs-k8s
+  name: cteseproject2
 spec:
   selector:
-    app: nodejs-k8s
+    app: cteseproject2
   ports:
     - protocol: TCP
       port: 5000
